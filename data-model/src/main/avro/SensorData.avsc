@@ -1,0 +1,38 @@
+{
+    "namespace": "com.chekh.sensorservice.datamodel",
+    "type": "record",
+    "name": "SensorData",
+    "fields":[
+         {
+             "name": "ts",
+             "type": {
+               "type": "long",
+               "logicalType": "timestamp-millis"
+             }
+         },
+         {
+            "name": "device", "type": "string"
+         },
+         {
+             "name": "co", "type": "double"
+         },
+         {
+             "name": "humidity", "type": "double"
+         },
+         {
+            "name": "light", "type": "boolean"
+         },
+         {
+            "name": "lpg", "type": "double"
+         },
+         {
+            "name": "motion", "type": "boolean"
+         },
+         {
+            "name": "smoke", "type": "double"
+         },
+         {
+            "name": "temp", "type": "double"
+         }
+    ]
+}
